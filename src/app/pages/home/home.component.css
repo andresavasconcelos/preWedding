@@ -1,0 +1,146 @@
+/* Estilo para o banner */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilo para a parte direita do banner */
+.home .banner-direita {
+  width: 23%;
+  height: 100vh; /* Ajuste a altura conforme necessário */
+  background-image: url(../../../assets/img/BORDER-direito.png);
+  float: left; /* Coloca a imagem à direita */
+  background-size: 39%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+  background-position: right top;
+}
+
+/* Estilo para a parte esquerda do banner */
+.home .banner-esquerda {
+  width: 23%;
+  height: 100vh;
+  background-image: url(../../../assets/img/BORDER-esquerdo.png);
+  background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+  background-size: cover;
+  float: right;
+  background-position: right top;
+}
+
+.centered-text {
+  text-align: center;
+  position: absolute; /* Adicionado posicionamento absoluto */
+}
+
+.centered-text h1 {
+  font-size: 100px;
+  color: #6f6f64;
+  margin: 0;
+}
+
+.centered-text p {
+  line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
+}
+
+.up-position{
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  top: 15%; /* Posiciona no meio verticalmente */
+  left: 50%; /* Posiciona no meio horizontalmente */
+  transform: translate(-50%, -50%); /* Move a div para o centro */
+  z-index: 1; /* Define uma ordem de empilhamento superior (na frente das imagens) */
+}
+
+.up-position p {
+  line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
+}
+
+.middle-position{
+  top: 50%; /* Posiciona no meio verticalmente */
+  left: 50%; /* Posiciona no meio horizontalmente */
+  transform: translate(-50%, -50%); /* Move a div para o centro */
+  z-index: 1; /* Define uma ordem de empilhamento superior (na frente das imagens) */
+  font-family: 'Sacramento', cursive;
+}
+
+.down-position{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  top: 85%; /* Posiciona no meio verticalmente */
+  left: 50%; /* Posiciona no meio horizontalmente */
+  transform: translate(-50%, -50%); /* Move a div para o centro */
+  z-index: 1; /* Define uma ordem de empilhamento superior (na frente das imagens) */
+}
+
+.contagem {
+  display: flex;
+}
+
+.item {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.valor {
+  font-size: 50px;
+  font-weight: bold;
+  color: #6f6f64;
+}
+
+.unidade {
+  font-size: 12px;
+  color: #666;
+}
+
+
+.local-evento{
+  text-align: center;
+  position: relative; /* Adicionado posicionamento absoluto */
+  text-transform: uppercase;
+  color: #6f6f64;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(248, 245, 242, 0.5);
+}
+
+.local-evento h1{
+  font-weight: bold;
+  padding-top: 40px;
+  margin-bottom: 36px;
+}
+
+.local-evento p{
+  font-size: 21px;
+  margin-top: 36px;
+  line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
+}
+
+.cards p{
+  color:#666;
+  font-size: 16px;
+  line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
+}
+
+
+.cards h5{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.cards a {
+  margin: 10px;
+  background-color: chocolate;
+  border-color: chocolate;
+}
+
+.cards img{
+  max-width: 100%; /* Define o tamanho máximo como 100% da largura do contêiner */
+  height: auto; /* Garante que a altura seja ajustada automaticamente para manter a proporção */
+}
