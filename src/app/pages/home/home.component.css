@@ -104,6 +104,7 @@
 
 
 .local-evento{
+  height: 100vh;
   text-align: center;
   position: relative; /* Adicionado posicionamento absoluto */
   text-transform: uppercase;
@@ -120,13 +121,14 @@
 }
 
 .local-evento p{
+  font-weight: bold;
   font-size: 21px;
   margin-top: 36px;
   line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
 }
 
 .cards p{
-  color:#666;
+  color:#7c7c7c;
   font-size: 16px;
   line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
 }
@@ -158,4 +160,18 @@
   display: inline-block;
   padding: 26px;
   margin-bottom: 38px;
+}
+
+.row {
+  display: flex;
+  align-items: center; /* Alinha verticalmente os elementos */
+}
+
+.image-container {
+  flex: 1; /* Ocupa a mesma quantidade de espaço disponível */
+}
+
+.imagerose-left, .imagerose-right {
+  max-width: 100px; /* Largura máxima das imagens */
+  margin: 0 10px; /* Espaçamento entre a imagem e o título */
 }
