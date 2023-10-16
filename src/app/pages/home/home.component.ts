@@ -21,7 +21,7 @@ interface ContagemRegressiva {
 }
 
 function calcularTempoRestante(): ContagemRegressiva {
-  const dataAlvo = new Date('2024-11-09T00:00:00Z');
+  const dataAlvo = new Date('2024-11-09T19:00:00Z');
   const agora = new Date();
 
   const diferencaEmMilissegundos = dataAlvo.getTime() - agora.getTime();
@@ -42,11 +42,23 @@ function calcularTempoRestante(): ContagemRegressiva {
 function atualizarContagemRegressiva(): void {
   const contagem = calcularTempoRestante();
 
-  // Atualize os elementos HTML
-  // document.getElementById('dias').innerText = contagem.dias.toString();
-  // document.getElementById('horas').innerText = contagem.horas.toString();
-  // document.getElementById('minutos').innerText = contagem.minutos.toString();
-  // document.getElementById('segundos').innerText = contagem.segundos.toString();
+  const diasElement = document.getElementById('dias');
+  const horasElement = document.getElementById('horas');
+  const minutosElement = document.getElementById('minutos');
+  const segundosElement = document.getElementById('segundos');
+
+  if (diasElement) {
+    diasElement.innerText = contagem.dias.toString();
+  }
+  if (horasElement) {
+    horasElement.innerText = contagem.horas.toString();
+  }
+  if (minutosElement) {
+    minutosElement.innerText = contagem.minutos.toString();
+  }
+  if (segundosElement) {
+    segundosElement.innerText = contagem.segundos.toString();
+  }
 }
 
 // Atualize a contagem a cada segundo
