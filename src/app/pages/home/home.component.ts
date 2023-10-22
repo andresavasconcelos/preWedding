@@ -21,15 +21,17 @@ interface ContagemRegressiva {
 }
 
 function calcularTempoRestante(): ContagemRegressiva {
-  const dataAlvo = new Date('2024-11-09T19:00:00Z');
+  const dataAlvo = new Date('2024-11-09T21:30:00Z');
   const agora = new Date();
+  console.log("agora: " + agora)
+  console.log("dataAlvo: " + dataAlvo)
 
-  const diferencaEmMilissegundos = dataAlvo.getTime() - agora.getTime();
+  const diferencaEmSegundos = Math.floor((dataAlvo.getTime() - agora.getTime()) / 1000);
 
-  const dias = Math.floor(diferencaEmMilissegundos / (1000 * 60 * 60 * 24));
-  const horas = Math.floor((diferencaEmMilissegundos % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  const minutos = Math.floor((diferencaEmMilissegundos % (1000 * 60 * 60)) / (1000 * 60));
-  const segundos = Math.floor((diferencaEmMilissegundos % (1000 * 60)) / 1000);
+  const dias = Math.floor(diferencaEmSegundos / (60 * 60 * 24));
+  const horas = Math.floor((diferencaEmSegundos % (60 * 60 * 24)) / (60 * 60));
+  const minutos = Math.floor((diferencaEmSegundos % (60 * 60)) / 60);
+  const segundos = diferencaEmSegundos % 60;
 
   return {
     dias,
@@ -48,19 +50,20 @@ function atualizarContagemRegressiva(): void {
   const segundosElement = document.getElementById('segundos');
 
   if (diasElement) {
-    diasElement.innerText = contagem.dias.toString();
+    diasElement.innerText = contagem.dias.toString().padStart(2, '0');
   }
   if (horasElement) {
-    horasElement.innerText = contagem.horas.toString();
+    horasElement.innerText = contagem.horas.toString().padStart(2, '0');
   }
   if (minutosElement) {
-    minutosElement.innerText = contagem.minutos.toString();
+    minutosElement.innerText = contagem.minutos.toString().padStart(2, '0');
   }
   if (segundosElement) {
-    segundosElement.innerText = contagem.segundos.toString();
+    segundosElement.innerText = contagem.segundos.toString().padStart(2, '0');
   }
 }
 
 // Atualize a contagem a cada segundo
 setInterval(atualizarContagemRegressiva, 1000);
+
 
