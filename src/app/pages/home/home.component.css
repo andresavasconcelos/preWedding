@@ -5,29 +5,27 @@
   align-items: center;
 }
 
-/* Estilo para a parte direita do banner */
 .home .banner-direita {
-  width: 23%;
-  height: 100vh; /* Ajuste a altura conforme necessário */
-  background-image: url(../../../assets/img/BORDER-direito.png);
-  float: left; /* Coloca a imagem à direita */
-  background-size: 39%;
+  width: 20%; /* Ajuste conforme necessário */
+  height: 100vh; /* Mantenha a altura igual à altura da tela */
+  background-image: url(../../../assets/img/home/flor1.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  float: right;
-  background-position: right top;
+  background-size: contain; /* Alterado de 'cover' para 'contain' */
+  background-position: top; /* Posiciona a imagem na parte inferior */
 }
 
-/* Estilo para a parte esquerda do banner */
-.home .banner-esquerda {
-  width: 23%;
+.home .banner-esquerda-inferior {
+  width: 20%;
   height: 100vh;
-  background-image: url(../../../assets/img/BORDER-esquerdo.png);
-  background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
-  background-size: cover;
-  float: right;
-  background-position: right top;
+  background-image: url(../../../assets/img/home/cantoInferiorDireito.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-position: bottom; /* Posiciona a imagem na parte inferior */
 }
+
 
 /* // show it on devices with max of 767 px and lower */
 @media (max-width: 767px) {
@@ -55,7 +53,8 @@
 
 .centered-text h1 {
   font-size: 100px;
-  color: #6f6f64;
+  /* color: #6f6f64; */
+  color: #a37a78;
   margin: 0;
 }
 
@@ -65,11 +64,12 @@
 
 
 .up-position{
-  color: #777771;
+  /* color: #777771; */
+  color: #8b6866;
   text-transform: uppercase;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
-  top: 15%; /* Posiciona no meio verticalmente */
+  top: 10%; /* Posiciona no meio verticalmente */
   left: 50%; /* Posiciona no meio horizontalmente */
   transform: translate(-50%, -50%); /* Move a div para o centro */
   z-index: 1; /* Define uma ordem de empilhamento superior (na frente das imagens) */
@@ -81,7 +81,7 @@
 }
 
 .middle-position{
-  top: 50%; /* Posiciona no meio verticalmente */
+  top: 40%; /* Posiciona no meio verticalmente */
   left: 50%; /* Posiciona no meio horizontalmente */
   transform: translate(-50%, -50%); /* Move a div para o centro */
   z-index: 1; /* Define uma ordem de empilhamento superior (na frente das imagens) */
@@ -92,7 +92,7 @@
   text-transform: uppercase;
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
-  top: 85%; /* Posiciona no meio verticalmente */
+  top: 75%; /* Posiciona no meio verticalmente */
   left: 50%; /* Posiciona no meio horizontalmente */
   transform: translate(-50%, -50%); /* Move a div para o centro */
   z-index: 1; /* Define uma ordem de empilhamento superior (na frente das imagens) */
@@ -122,69 +122,25 @@
   font-weight: bold;
 }
 
-.middle{
-  background-color: rgba(248, 245, 242, 0.6);
-}
-
-.local-evento{
-  /* height: 100vh; */
-  text-align: center;
-  position: relative; /* Adicionado posicionamento absoluto */
-  text-transform: none;
-  color: #6f6f64;
-  font-family: 'Raleway', sans-serif;
-}
-
-.florMeio{
+.menuHome .imgMenu{
   margin-top: 100px;
-  width: 65px;
+  width: 60%;
 }
 
-.title-home{
-  padding-top: 40px;
-  margin-bottom: 36px;
-  color: #9a8478;
-  font-style: normal;
-  font-size: 50px;
-  font-family: 'Great Vibes', cursive;
-  text-transform: none;
+.menuHome a{
+  color: currentColor;
+  text-decoration: none;
 }
 
-.local-evento p{
+.menuHome .textHomeP{
   font-weight: bold;
-  font-size: 21px;
+  font-size: 22px;
   margin-top: 36px;
   line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
   max-width: 100%; /* Texto não ultrapassará a largura da caixa */
+  text-transform: none;
+  color: #a37a78;
 }
-
-.cards p{
-  color:#7c7c7c;
-  font-size: 16px;
-  line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
-  max-width: 100%; /* Texto não ultrapassará a largura da caixa */
-  /* font-size: clamp(1.75em, 1em + 3vw, 2.5em); */
-}
-.textp{
-  font-size: clamp(1.75em, 1em + 3vw, 2.5em);
-}
-.cards h5{
-  font-weight: bold;
-  font-size: 26px;
-}
-
-.cards a {
-  margin: 10px;
-  background-color: pink;
-  border-color: pink;
-  font-weight: bold;
-}
-
-.cards img{
-  max-width: 100%; /* Define o tamanho máximo como 100% da largura do contêiner */
-  height: auto; /* Garante que a altura seja ajustada automaticamente para manter a proporção */
-}
-
 
 .frase-com-linhas {
   text-transform: none;
@@ -197,68 +153,8 @@
   margin-bottom: 38px;
 }
 
-.row {
-  display: flex;
-  align-items: center; /* Alinha verticalmente os elementos */
-}
-
-.image-container {
-  flex: 1; /* Ocupa a mesma quantidade de espaço disponível */
-}
-
-.imagerose-left, .imagerose-right {
-  max-width: 100px; /* Largura máxima das imagens */
-  margin: 0 10px; /* Espaçamento entre a imagem e o título */
-}
-
-
-.informacoes{
-  /* height: 100vh; */
-  text-align: center;
-  position: relative; /* Adicionado posicionamento absoluto */
-  color: #6f6f64;
-  font-family: 'Raleway', sans-serif;
-  /* background-color: rgba(248, 245, 242, 0.5); */
-}
-
-.img-informacoes h5{
-  margin-top: 40px;
-  margin-bottom: 20px;
-  color: #4a4a55;
-  text-transform: none;
-  font-family: 'Poppins', sans-serif;
-  line-height: 30px;
-  font-style: normal;
-}
-
-.img-informacoes p{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #808080;
-  text-transform: none;
-  line-height: 30px;
-  font-style: normal;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-
-  max-width: 100%; /* Texto não ultrapassará a largura da caixa */
-}
-
-.img-informacoes img {
-  width: 100%;
-  max-width: 300px;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.button{
-  color: #ffff;
-  background-color: pink;
-  margin-bottom: 70px;
-  border-color: pink;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+.btn-waze{
+  background-color: #05c8f7;
+  border-color: #05c8f7;
 }
 

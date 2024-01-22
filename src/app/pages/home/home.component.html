@@ -1,6 +1,7 @@
 <div class="home">
   <div class="banner-direita tamBanner"></div>
   <div class="banner-esquerda hidden-mobile"></div>
+  <div class="banner-esquerda-inferior hidden-mobile"></div>
   <div class="centered-text up-position">
     <p class="mobile-text">CONVIDAMOS VOCÊ</p>
     <br>
@@ -12,9 +13,39 @@
 
   <div class="centered-text down-position">
 
-    <p class="frase-com-linhas">09 Novembro, 2024</p>
+    <p class="frase-com-linhas">09 Novembro, 2022 às 18:30</p>
 
-    <div class="contagem">
+    <div class="container menuHome hidden-mobile">
+      <div class="row">
+        <div class="col-3">
+          <a href="#" class="linkMenu" data-bs-toggle="modal" data-bs-target="#igreja">
+            <img class="imgMenuHome imgMenu" src="assets\img\home\igreja.png" alt="">
+            <p class="card-text textHomeP">Igreja</p>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="linkMenu">
+            <img class="imgMenuHome imgMenu" src="assets\img\home\festa.png" alt="">
+            <p class="card-text textHomeP">Festa</p>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="linkMenu">
+            <img class="imgMenuHome imgMenu" src="assets\img\home\presente.png" alt="">
+            <p class="card-text textHomeP">Lista de Presentes</p>
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="#" class="linkMenu">
+            <img class="florMeio imgMenu" src="assets\img\home\padrinhos.png" alt="">
+            <p class="card-text textHomeP">Padrinhos</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="contagem">
       <div class="item">
         <span id="dias" class="valor"></span>
         <span class="unidade"> dias</span>
@@ -31,133 +62,36 @@
         <span id="segundos" class="valor"></span>
         <span class="unidade"> segundos</span>
       </div>
+    </div> -->
+  </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="igreja" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Vamos à Igreja!!!!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets\img\candelaria.png" class="card-img-top" alt="...">
+        <p class="card-text textp">PARÓQUIA NOSSA SENHORA DA CANDELÁRIA R. Castro Alves, 781 - Cerâmica,São Caetano do Sul </p>
+      </div>
+      <div class="modal-footer">
+        <a href="https://www.google.com/maps?q=R.+Castro+Alves,+781,+Cerâmica,+São+Caetano+do+Sul,+SP,+09540-030" target="_blank">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-map-marker" aria-hidden="true"></i> Abrir no Maps
+          </button>
+        </a>
+        <a href="https://www.waze.com/ul?ll=-23.622746,-46.559858&navigate=yes" target="_blank">
+          <button type="button" class="btn btn-secondary btn-waze" data-bs-dismiss="modal"><i class="fa-brands fa-waze"></i> Abrir no Waze</button>
+        </a>
+        <button type="button" class="btn btn-primary"><i class="fa fa-files-o" aria-hidden="true"></i> Copiar Endereço</button>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="middle">
 
-    <!-- Local do Evento -->
-
-    <div class="local-evento">
-      <img class="florMeio" src="assets\img\florMeio.png" alt="">
-      <h1 class="title-home">Local dos Eventos</h1>
-
-      <div class="container">
-        <div class="row cards">
-
-          <div class="igreja col-md-6 col-xs-12 cards-positions">
-            <div class="card">
-              <img src="assets\img\candelaria.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Igreja</h5>
-                <p class="card-text textp">PARÓQUIA NOSSA SENHORA DA CANDELÁRIA</p>
-                <p class="card-text"> R. Castro Alves, 781 - Cerâmica,</p>
-                <p class="card-text">São Caetano do Sul</p>
-                <a href="#" class="btn btn-primary">Abrir google maps</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="festa  col-md-6 col-xs-12  cards-positions">
-            <div class="card">
-              <img src="assets\img\masterday.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Festa</h5>
-                <p class="card-text">Buffet Master Day</p>
-                <p class="card-text"> R. Ceará, 363 - Fundação,</p>
-                <p class="card-text">São Caetano do Sul</p>
-                <a href="#" class="btn btn-primary">Abrir google maps</a>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-
-    <!-- Informações -->
-
-    <div class="informacoes">
-      <img class="florMeio" src="assets\img\florMeio.png" alt="">
-      <h1 class="title-home">Pré Evento</h1>
-      <div class="container">
-        <div class="row cards">
-          <div class="lista-de-casamento  col-md-4 col-xs-8  img-informacoes">
-            <img src="assets\img\lista-de-presentes.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Lista de Presentes</h5>
-              <p class="card-text">Sites com listas que você pode dar uma olhadinha!</p>
-            </div>
-          </div>
-          <div class="madrinhas col-md-4 col-xs-8  img-informacoes">
-            <img src="assets\img\madrinhas.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Para Madrinhas</h5>
-              <p class="card-text">Dicas de vestimentas e exemplos para se inspirar</p>
-            </div>
-          </div>
-          <div class="padrinhos col-md-4 col-xs-8 img-informacoes">
-            <img src="assets\img\padrinhos.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Para Padrinhos</h5>
-              <p class="card-text">Dicas de vestimentas e exemplos para se inspirar</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-     <!-- Informações -->
-
-     <div class="contato">
-        <img class="florMeio" src="assets\img\florMeio.png" alt="">
-        <h1 class="title-home">Contato</h1>
-        <div class="formContact">
-          <div class="container">
-            <form class="row g-3">
-              <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
-              </div>
-              <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4">
-              </div>
-              <div class="col-12">
-                <label for="inputAddress" class="form-label">Address</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-              </div>
-              <div class="col-12">
-                <label for="inputAddress2" class="form-label">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-              </div>
-              <div class="col-md-6">
-                <label for="inputCity" class="form-label">City</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="col-md-4">
-                <label for="inputState" class="form-label">State</label>
-                <select id="inputState" class="form-select">
-                  <option selected>Choose...</option>
-                  <option>...</option>
-                </select>
-              </div>
-              <div class="col-md-2">
-                <label for="inputZip" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
-              </div>
-              <div class="col-12">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
-                    Check me out
-                  </label>
-                </div>
-              </div>
-              <div class="col-12">
-                <button type="submit" class="btn btn-primary button">Sign in</button>
-              </div>
-            </form>
-          </div>
-        </div>
-     </div>
 </div>
+

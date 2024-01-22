@@ -1,0 +1,13 @@
+Fonts used in this design:
+
+Font: Abhaya Libre
+Author: Mooniak
+Url: https://fonts.google.com/specimen/Abhaya+Libre
+
+Font: Montserrat
+Author: Julieta Ulanovsky,Sol Matas,Juan Pablo del Peral,Jacques Le Bailly
+Url: https://fonts.google.com/specimen/Montserrat
+
+Font: Dancing Script
+Author: Impallari Type
+Url: https://fonts.google.com/specimen/Dancing+Script
