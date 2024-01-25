@@ -7,7 +7,9 @@
 
 .home .banner-direita {
   width: 20%; /* Ajuste conforme necessário */
-  height: 100vh; /* Mantenha a altura igual à altura da tela */
+  height: 100%; /* Usando 100% para cobrir a altura do elemento pai */
+  position: absolute;
+  top: 0;
   background-image: url(../../../assets/img/home/flor1.png);
   background-repeat: no-repeat;
   background-size: contain; /* Alterado de 'cover' para 'contain' */
@@ -16,7 +18,7 @@
 
 .home .banner-esquerda-inferior {
   width: 20%;
-  height: 100vh;
+  height: 100%; /* Usando 100% para cobrir a altura do elemento pai */
   background-image: url(../../../assets/img/home/cantoInferiorDireito.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -28,7 +30,7 @@
 
 
 /* // show it on devices with max of 767 px and lower */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .hidden-mobile {
     display: none;
   }
@@ -44,7 +46,7 @@
   .festa{
     margin-top: 20px;
   }
-}
+} */
 
 .centered-text {
   text-align: center;
@@ -53,7 +55,6 @@
 
 .centered-text h1 {
   font-size: 100px;
-  /* color: #6f6f64; */
   color: #a37a78;
   margin: 0;
 }
@@ -124,7 +125,7 @@
 
 .menuHome .imgMenu{
   margin-top: 100px;
-  width: 60%;
+  width: 45%;
 }
 
 .menuHome a{
@@ -150,7 +151,92 @@
   border-bottom: 1px solid #666;
   display: inline-block;
   padding: 26px;
-  margin-bottom: 38px;
+}
+
+/* // show it on devices with max of 767 px and lower */
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+
+  .home .banner-direita {
+    width: 40%; /* Ajuste conforme necessário */
+    height: 100%; /* Usando 100% para cobrir a altura do elemento pai */
+    position: absolute;
+    top: 0;
+    background-image: url(../../../assets/img/home/flor1.png);
+    background-repeat: no-repeat;
+    background-size: contain; /* Alterado de 'cover' para 'contain' */
+    background-position: top; /* Posiciona a imagem na parte inferior */
+  }
+
+  .centered-text h1 {
+    font-size: 95px;
+    color: #a37a78;
+    margin: 0;
+  }
+
+  .down-position{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    transform: translate(-50%, -50%); /* Move a div para o centro */
+    z-index: 1; /* Define uma ordem de empilhamento superior (na frente das imagens) */
+  }
+
+  .frase-com-linhas {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .menuHome{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0;
+    max-width: 100%;
+    text-transform: none;
+    color: #a37a78;
+  }
+
+  .menuHome .imgMenu{
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .menuHome .textHomeP{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
+    max-width: 100%; /* Texto não ultrapassará a largura da caixa */
+    text-transform: none;
+    color: #a37a78;
+  }
+
+  .up-position {
+    color: #8b6866;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    top: 10%;
+    z-index: 1;
+    font-weight: bold;
+    text-align: right;
+  }
+
+
+  /* .tamBanner{
+    width: 55%;
+  }
+
+  .mobile-text{
+    font-size: 10px;
+  }
+
+  .festa{
+    margin-top: 20px;
+  } */
 }
 
 .btn-waze{
