@@ -52,7 +52,7 @@
                 </a>
               </div>
               <div class="col-3">
-                <a href="#" class="linkMenu">
+                <a href="#" class="linkMenu" data-bs-toggle="modal" data-bs-target="#festa">
                   <img class="imgMenuHome imgMenu" src="assets\img\home\festa.png" alt="">
                   <p class="card-text textHomeP">Festa</p>
                 </a>
@@ -61,8 +61,6 @@
                 <a href="#" class="linkMenu">
                   <img class="imgMenuHome imgMenu" src="assets\img\home\presente.png" alt="">
                   <!-- <p class="card-text textHomeP">Lista de Presentes</p> -->
-                  <p class="card-text textHomeP">Lista</p>
-                  <p class="card-text textHomeP">de</p>
                   <p class="card-text textHomeP">Presentes</p>
                 </a>
               </div>
@@ -79,32 +77,59 @@
     </div>
   </div>
 
-  <!-- Modal -->
-<div class="modal fade" id="igreja" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-center" id="exampleModalLabel">Vamos à Igreja!!!!</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="assets\img\candelaria.png" class="card-img-top" alt="...">
-        <p class="card-text textp">PARÓQUIA NOSSA SENHORA DA CANDELÁRIA R. Castro Alves, 781 - Cerâmica,São Caetano do Sul </p>
-      </div>
-      <div class="modal-footer">
-        <a href="https://www.google.com/maps?q=R.+Castro+Alves,+781,+Cerâmica,+São+Caetano+do+Sul,+SP,+09540-030" target="_blank">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-map-marker" aria-hidden="true"></i> Abrir no Maps
-          </button>
-        </a>
-        <a href="https://ul.waze.com/ul?place=ChIJi8k9O8RczpQRjZvL79qp43w&ll=-23.62698590%2C-46.56857680&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank">
-          <button type="button" class="btn btn-secondary btn-waze" data-bs-dismiss="modal"><i class="fa-brands fa-waze"></i> Abrir no Waze</button>
-        </a>
-        <button type="button" class="btn btn-primary"><i class="fa fa-files-o" aria-hidden="true"></i> Copiar Endereço</button>
+  <!-- Modal Igreja-->
+  <div class="modal fade" id="igreja" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header modalH">
+          <h5 class="modal-title text-center" id="exampleModalLabel">Vamos à Igreja!!!!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="">
+          <img src="assets\img\candelaria.png" class="card-img-top imgModal" alt="...">
+          <p class="card-text place text-center">Paróquia Nossa Senhora Da Candelária</p>
+          <p class="card-text address text-center">R. Castro Alves, 781 - Cerâmica,São Caetano do Sul </p>
+        </div>
+        <div class="modal-footer modalF">
+          <a href="https://www.google.com/maps?q=R.+Castro+Alves,+781,+Cerâmica,+São+Caetano+do+Sul,+SP,+09540-030" target="_blank">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-map-marker" aria-hidden="true"></i> Abrir no Maps
+            </button>
+          </a>
+          <a href="https://ul.waze.com/ul?place=ChIJi8k9O8RczpQRjZvL79qp43w&ll=-23.62698590%2C-46.56857680&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank">
+            <button type="button" class="btn btn-secondary btn-waze" data-bs-dismiss="modal"><i class="fa-brands fa-waze"></i> Abrir no Waze</button>
+          </a>
+          <button type="button" class="btn btn-primary"><i class="fa fa-files-o" aria-hidden="true"></i></button>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
+  <!-- Modal Festa -->
+  <div class="modal fade" id="festa" tabindex="-1" aria-labelledby="festaModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header modalH">
+          <h5 class="modal-title text-center" id="festaModal">Vamos à Festa!!!!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="">
+          <img src="assets\img\masterday.jpeg" class="card-img-top imgModal" alt="...">
+          <p class="card-text place text-center">Buffet Master Day</p>
+          <p class="card-text address text-center">R. Ceará, 363 - Fundação, São Caetano do Sul - SP, 09520-410</p>
+        </div>
+        <div class="modal-footer modalF">
+          <a href="https://www.google.com/maps/dir/-23.5782452,-46.5836981/master+day+buffet/@-23.5733455,-46.6246809,13z" target="_blank">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-map-marker" aria-hidden="true"></i> Abrir no Maps
+            </button>
+          </a>
+          <a href="https://www.waze.com/ul?ll=-23.613456%2C-46.572889&navigate=yes" target="_blank">
+            <button type="button" class="btn btn-secondary btn-waze" data-bs-dismiss="modal"><i class="fa-brands fa-waze"></i> Abrir no Waze</button>
+          </a>
+          <button type="button" class="btn btn-primary"><i class="fa fa-files-o" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
 
