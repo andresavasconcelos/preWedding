@@ -7,6 +7,8 @@ import { NavbarComponent } from './sharepage/navbar/navbar.component';
 import { FooterComponent } from './sharepage/footer/footer.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
+import { MadrinhaComponent } from './pages/madrinha/madrinha.component';
+import { PadrinhoComponent } from './pages/padrinho/padrinho.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
@@ -18,7 +20,9 @@ import { ContactComponent } from './pages/contact/contact.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    MadrinhaComponent,
+    PadrinhoComponent
   ],
   imports: [
     BrowserModule,
