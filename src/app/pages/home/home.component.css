@@ -35,7 +35,7 @@
 
 .centered-text h1 {
   font-size: 100px;
-  color: #a37a78;
+  color: #787da3;
   margin: 0;
 }
 
@@ -45,7 +45,7 @@
 
 
 .up-position{
-  color: #8b6866;
+  color: #666c8b;
   text-transform: uppercase;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
@@ -113,7 +113,7 @@
   line-height: 0;
   max-width: 100%;
   text-transform: none;
-  color: #a37a78;
+  color: #15187f;
   padding-left: inherit;
 }
 
@@ -134,7 +134,7 @@
   line-height: 0;
   max-width: 100%;
   text-transform: none;
-  color: #a37a78;
+  color: #15187f;
 }
 
 .frase-com-linhas {
@@ -166,7 +166,7 @@
 
   .centered-text h1 {
     font-size: 95px;
-    color: #a37a78;
+    color: #15187f;
     margin: 0;
   }
 
@@ -190,7 +190,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #a37a78;
+    color: #15187f;
     padding-left: inherit;
   }
 
@@ -205,7 +205,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #a37a78;
+    color: #15187f;
     padding-left: inherit;
   }
 
@@ -221,7 +221,7 @@
     line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
     max-width: 100%; /* Texto não ultrapassará a largura da caixa */
     text-transform: none;
-    color: #a37a78;
+    color: #15187f;
   }
 
   .up-position {
@@ -241,7 +241,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #a37a78;
+    color: #15187f;
   }
 
   .ltsPresente .imgPresente{
@@ -279,7 +279,7 @@
 
   .centered-text h1 {
     font-size: 95px;
-    color: #a37a78;
+    color: #15187f;
     margin: 0;
   }
 
@@ -308,7 +308,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #a37a78;
+    color: #15187f;
   }
 
   .menuHome .imgMenu{
@@ -322,7 +322,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #a37a78;
+    color: #15187f;
   }
 
   .ltsPresente .imgPresente{
@@ -337,7 +337,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #a37a78;
+    color: #15187f;
   }
 
   .up-position {
@@ -402,7 +402,7 @@
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
-  color: #a37a78;
+  color: #15187f;
   margin-bottom: 20px;
   margin-top: 10px;
 }
