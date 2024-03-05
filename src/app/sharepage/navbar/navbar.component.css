@@ -2,3 +2,15 @@
   color: blueviolet;
   font-weight: bold;
 }
+
+.navbar{
+  background-color: #2298d5;
+  background-image: none;
+}
+
+
+
+.nav-link{
+  color: #fff;
+  font-family: "Montserrat Alternates", sans-serif;
+}
