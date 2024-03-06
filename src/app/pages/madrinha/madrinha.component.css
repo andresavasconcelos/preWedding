@@ -138,8 +138,8 @@
 
 .imgVestido{
   /* width: 80%; */
-  width: auto; /* Defina a largura desejada */
-  height: 500px; /* Deixe a altura como automática para manter a proporção */
+  width: 300px; /* Defina a largura desejada */
+  height: auto; /* Deixe a altura como automática para manter a proporção */
 }
 
 .btnVestido{
