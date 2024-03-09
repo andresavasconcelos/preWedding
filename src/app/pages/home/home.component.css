@@ -17,7 +17,7 @@
 }
 
 .home .banner-esquerda-inferior {
-  width: 15%;
+  width: 12%;
   height: 100%;
   background-image: url(../../../assets/img/home/cantoInferiorDireito.png);
   background-repeat: no-repeat;
@@ -145,6 +145,10 @@
   border-bottom: 1px solid #666;
   display: inline-block;
   padding: 26px;
+}
+
+.modalF button{
+  margin: 2px;
 }
 
 /* // show it on devices with max of 767 px and lower */
