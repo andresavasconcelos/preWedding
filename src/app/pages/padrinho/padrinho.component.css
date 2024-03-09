@@ -1,0 +1,238 @@
+.madrinha{
+  background-image: none!important;
+  background-color: #eef1fa;
+
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.blocoInicial{
+  background-color: #eef1fa;
+}
+
+
+.text-padrinhos h1{
+  font-family: 'Imperial Script', cursive;
+  font-size: 80px;
+  margin-top: 30px;
+}
+
+.coracao{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.coracao h3{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.imgCoracao{
+  width: 40%;
+}
+
+.florAzulMeio{
+  width: 60px;
+  margin-bottom: 25px;
+}
+
+.comCarinho{
+  text-align: right;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: #000;
+  font-size: 17px;
+}
+
+.agradecimento h5{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  margin-top: 25px;
+}
+
+.meioCores{
+  /* background-color: #badcf17d; */
+  /* background-color: #d5d5d57d; */
+  /* background-color: #e9e9e97d; */
+  background-color: #e7ecfc;
+}
+
+.texto{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.reservei{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  margin-top: 15px;
+}
+
+.meioCores{
+  /* padding: 40px; */
+  padding: 40px 40px 1px 40px;
+}
+
+.cinza{
+  margin: 50px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  /* color: #007dbe; */
+  color: #717171;
+  font-size: 50px;
+}
+
+.referenciaTexto{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #7f7f7f;;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.blocoFinal{
+  padding: 40px;
+}
+
+.final h3{
+  margin-top: 15px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+  margin-bottom: 0;
+}
+
+.voceLinda{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #7f7f7f;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.imgVestido{
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.btnVestido{
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #0089b1;
+  color: #fff;
+  background-color: #0089b1;
+  border-color: none;
+}
+
+
+@media (max-width: 767px) {
+  .imgCoracao{
+    width: 40%;
+  }
+}
+
+/* celular com tela grande */
+@media (max-width: 1450px) {
+
+  .text-padrinhos h1{
+    font-family: 'Imperial Script', cursive;
+    font-size: 60px;
+    margin-top: 30px;
+  }
+
+  .florAzulMeio{
+    width: 50px;
+    margin-bottom: 25px;
+  }
+
+  .agradecimento h5{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+
+  .comCarinho{
+    text-align: right;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    /* font-style: italic; */
+    color: #7a7979;
+    font-size: 14px;
+  }
+
+  .imgCoracao{
+    width: 100%;
+  }
+
+  .reservei{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    margin-top: 15px;
+  }
+
+  .cinza{
+    margin: 50px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #007dbe;
+    font-size: 40px;
+  }
+
+  .referenciaTexto{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #7f7f7f;;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .blocoFinal{
+    padding: 40px;
+  }
+
+  .final h3{
+    margin-top: 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    margin-bottom: 0;
+  }
+
+  .voceLinda{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #7f7f7f;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+
+  .imgWithoutLink{
+    margin-bottom: 20px;
+  }
+}
