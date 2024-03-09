@@ -225,7 +225,7 @@
   }
 
   .up-position {
-    color: #8b6866;
+    color: #666c8b;
     text-transform: uppercase;
     font-size: 13px;
     font-family: 'Raleway', sans-serif;
@@ -341,7 +341,7 @@
   }
 
   .up-position {
-    color: #8b6866;
+    color: #666c8b;
     text-transform: uppercase;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
@@ -374,6 +374,7 @@
   padding: 0 12px 0 12px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .imgModal{
@@ -386,7 +387,18 @@
 }
 
 .modalF{
+  display: table-column-group;
+  flex-shrink: 0;
   border-top: none;
+  text-align: center;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap)* .5);
+  background-color: var(--bs-modal-footer-bg);
+  border-top: var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);
+  border-bottom-right-radius: var(--bs-modal-inner-border-radius);
+  border-bottom-left-radius: var(--bs-modal-inner-border-radius);
 }
 
 .rowPresentes{
