@@ -31,18 +31,16 @@
 }
 
 .imgCoracao{
-  width: 50%;
+  width: 40%;
 }
 
 .florAzulMeio{
-  width: 80px;
+  width: 60px;
   margin-bottom: 25px;
 }
 
 .comCarinho{
-
   text-align: right;
-  /* font-family: "Montserrat Alternates", sans-serif; */
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 200;
   font-style: italic;
@@ -57,14 +55,9 @@
   color: #000;
   font-size: 17px;
   margin-top: 25px;
-  /* font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal; */
 }
 
 .meioCores{
-  /* background-color: #c8d5fc; */
-  /* background-color: #badcf1; */
   background-color: #badcf17d;
 }
 
@@ -80,10 +73,6 @@
   font-style: normal;
   color: #000;
   margin-top: 15px;
-
-  /* font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal; */
 }
 
 .meioCores{
@@ -96,16 +85,15 @@
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 300;
   font-style: normal;
-  /* color: #6cbef1; */
   color: #007dbe;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .referenciaTexto{
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 200;
   font-style: normal;
-  color: #000;
+  color: #7f7f7f;;
   font-size: 20px;
   margin-top: 15px;
 }
@@ -120,34 +108,126 @@
   font-weight: 300;
   font-style: normal;
   color: #000;
-  /* color: #6cbef1; */
-  /* color: #007dbe; */
-  /* font-size: 60px; */
 }
 
 .voceLinda{
   font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  color: #000;
-  font-size: 17px;
+  color: #7f7f7f;
+  font-size: 16px;
   margin-top: 10px;
   margin-bottom: 40px;
-  font-style: italic;
 }
 
 .imgVestido{
-  /* width: 80%; */
-  width: 300px; /* Defina a largura desejada */
-  height: auto; /* Deixe a altura como automática para manter a proporção */
+  width: 300px;
+  height: auto;
 
 }
 
 .btnVestido{
   font-family: "Montserrat Alternates", sans-serif;
   margin-top: 20px;
+  margin-bottom: 20px;
   color: #0089b1;
   color: #fff;
   background-color: #0089b1;
   border-color: none;
+}
+
+
+@media (max-width: 767px) {
+  .imgCoracao{
+    width: 40%;
+  }
+}
+
+/* celular com tela grande */
+@media (max-width: 1450px) {
+
+  .text-madrinhas h1{
+    font-family: 'Imperial Script', cursive;
+    font-size: 60px;
+    margin-top: 30px;
+  }
+
+  .florAzulMeio{
+    width: 50px;
+    margin-bottom: 25px;
+  }
+
+  .agradecimento h5{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    /* font-size: 16px; */
+    margin-top: 25px;
+  }
+
+  .comCarinho{
+    text-align: right;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    /* font-style: italic; */
+    color: #7a7979;
+    font-size: 14px;
+  }
+
+  .imgCoracao{
+    width: 100%;
+  }
+
+  .reservei{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    margin-top: 15px;
+  }
+
+  .serenity{
+    margin: 50px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #007dbe;
+    font-size: 40px;
+  }
+
+  .referenciaTexto{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #7f7f7f;;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .blocoFinal{
+    padding: 40px;
+  }
+
+  .final h3{
+    margin-top: 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+  }
+
+  .voceLinda{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #7f7f7f;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .imgWithoutLink{
+    margin-bottom: 20px;
+  }
 }
