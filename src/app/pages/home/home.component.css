@@ -178,7 +178,6 @@
     text-transform: uppercase;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    margin-top: 30px;
     transform: translate(-50%, -50%); /* Move a div para o centro */
     z-index: 1; /* Define uma ordem de empilhamento superior (na frente das imagens) */
   }
@@ -186,6 +185,7 @@
   .frase-com-linhas {
     font-size: 23px;
     margin-bottom: 40px;
+    margin-top: 40px;
   }
 
   .menuHome{
@@ -270,15 +270,7 @@
   }
 
   .home .banner-esquerda-inferior {
-    width: 10%;
-    height: 100%;
-    background-image: url(../../../assets/img/home/cantoInferiorDireito.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    background-position: bottom;
+    display: none;
   }
 
   .centered-text h1 {
@@ -425,4 +417,86 @@
 
 .linkMenu{
   text-decoration: none;
+}
+
+
+@media (max-width: 400px){
+  .home{
+    width: 30%;
+    height: 100%;
+  }
+
+  .up-position{
+    color: #666c8b;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+    top: 10%;
+    z-index: 1;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .centered-text h1 {
+    font-size: 70px;
+    color: #787da3;
+    margin: 0;
+  }
+
+  .frase-com-linhas{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 67px;
+    padding: 20px;
+  }
+
+  .menuHome .imgMenu{
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .menuHome .textHomeP{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 0;
+    max-width: 100%;
+    text-transform: none;
+    color: #15187f;
+  }
+
+  .home .banner-esquerda-inferior {
+    display: none;
+  }
+
+  .menuHome{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0;
+    max-width: 100%;
+    text-transform: none;
+    color: #15187f;
+    padding-left: inherit;
+    margin-top: 30px;
+  }
+
+  .place{
+    margin-bottom: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .address{
+    padding: 0 12px 0 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+
+  .modalF button{
+    margin: 2px;
+    width: 100%;
+  }
 }

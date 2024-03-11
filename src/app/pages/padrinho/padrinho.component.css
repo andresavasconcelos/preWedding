@@ -123,13 +123,13 @@
   margin-bottom: 40px;
 }
 
-.imgVestido{
-  width: 300px;
+.imgTerno{
+  width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
 
-.btnVestido{
+.btnTerno{
   font-family: "Montserrat Alternates", sans-serif;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -147,7 +147,7 @@
 }
 
 /* celular com tela grande */
-@media (max-width: 1450px) {
+@media (min-width: 768px) and (max-width: 1450px) {
 
   .text-padrinhos h1{
     font-family: 'Imperial Script', cursive;
@@ -156,8 +156,9 @@
   }
 
   .florAzulMeio{
-    width: 50px;
-    margin-bottom: 25px;
+    width: 20%;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
 
   .agradecimento h5{
@@ -234,4 +235,89 @@
   .imgWithoutLink{
     margin-bottom: 20px;
   }
+}
+
+@media (max-width: 400px){
+  .text-padrinhos h1{
+    font-family: 'Imperial Script', cursive;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .florAzulMeio{
+    width: 17%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .comCarinho{
+    text-align: right;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: #000;
+    font-size: 12px;
+  }
+
+  .agradecimento h5{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    margin-top: 25px;
+    font-size: 12px;
+  }
+
+  .reservei{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .referenciaTexto{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #7f7f7f;;
+    font-size: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .cinza{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #717171;
+    font-size: 25px;
+  }
+
+  .imgCoracao{
+    width: 100%;
+  }
+
+  .final h3{
+    margin-top: 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  .voceLinda{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #7f7f7f;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+
 }
