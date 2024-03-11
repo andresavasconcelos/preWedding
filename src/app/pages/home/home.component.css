@@ -103,7 +103,7 @@
 }
 
 .menuHome .imgMenu{
-  margin-top: 100px;
+  /* margin-top: 100px; */
   width: 45%;
 }
 
@@ -199,7 +199,7 @@
   }
 
   .menuHome .imgMenu{
-    margin-top: 25px;
+    /* margin-top: 25px; */
     width: 100%;
   }
 
@@ -214,7 +214,7 @@
   }
 
   .ltsPresente .imgPresente{
-    margin-top: 25px;
+    /* margin-top: 25px; */
     width: 100%;
   }
 
@@ -249,7 +249,7 @@
   }
 
   .ltsPresente .imgPresente{
-    margin-top: 25px;
+    /* margin-top: 25px; */
     width: 100%;
   }
 }
