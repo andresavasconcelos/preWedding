@@ -145,6 +145,7 @@
   border-bottom: 1px solid #666;
   display: inline-block;
   padding: 26px;
+  margin-bottom: 50px;
 }
 
 .modalF button{
@@ -152,13 +153,14 @@
 }
 
 /* // show it on devices with max of 767 px and lower */
+
 @media (max-width: 767px) {
   .hidden-mobile {
     display: none;
   }
 
   .home .banner-direita {
-    width: 40%; /* Ajuste conforme necessário */
+    width: 30%; /* Ajuste conforme necessário */
     height: 100%; /* Usando 100% para cobrir a altura do elemento pai */
     position: absolute;
     top: 0;
@@ -200,7 +202,7 @@
 
   .menuHome .imgMenu{
     /* margin-top: 25px; */
-    width: 100%;
+    width: 45%;
   }
 
   .ltsPresente {
@@ -249,7 +251,6 @@
   }
 
   .ltsPresente .imgPresente{
-    /* margin-top: 25px; */
     width: 100%;
   }
 }
@@ -407,6 +408,7 @@
 }
 
 .itensPadrinhos .textPadrinhos {
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
