@@ -11,6 +11,9 @@ import { MadrinhaComponent } from './pages/madrinha/madrinha.component';
 import { PadrinhoComponent } from './pages/padrinho/padrinho.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { NgOptimizedImage } from '@angular/common';
+import { OptImageMadrinhasComponent } from './pages/opt-image-madrinhas/opt-image-madrinhas.component';
+import { OptImagePadrinhosComponent } from './pages/opt-image-padrinhos/opt-image-padrinhos.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { ContactComponent } from './pages/contact/contact.component';
   imports: [
     BrowserModule,
     ClipboardModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgOptimizedImage,
+    OptImageMadrinhasComponent,
+    OptImagePadrinhosComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

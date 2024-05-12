@@ -1,0 +1,22 @@
+.blocoFinal{
+  padding: 40px;
+}
+
+.imgTerno{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* celular com tela grande */
+@media (min-width: 768px) and (max-width: 1450px) {
+
+  .blocoFinal{
+    padding: 40px;
+  }
+}
+
+
+
+
