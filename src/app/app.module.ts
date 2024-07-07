@@ -14,6 +14,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { NgOptimizedImage } from '@angular/common';
 import { OptImageMadrinhasComponent } from './pages/opt-image-madrinhas/opt-image-madrinhas.component';
 import { OptImagePadrinhosComponent } from './pages/opt-image-padrinhos/opt-image-padrinhos.component';
+import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { OptImagePadrinhosComponent } from './pages/opt-image-padrinhos/opt-imag
     ContactComponent,
     FooterComponent,
     MadrinhaComponent,
-    PadrinhoComponent
+    PadrinhoComponent,
+    ImageGalleryComponent
   ],
   imports: [
     BrowserModule,
