@@ -1,10 +1,10 @@
 .navbar-light .navbar-nav .nav-link.active-link{
-  color: rgb(52, 111, 223);
+  color: rgb(114, 152, 223);
   font-weight: bold;
 }
 
 .navbar{
-  background-color: #2298d5;
+  background-color: #78c7ee;
   background-image: none;
 }
 
