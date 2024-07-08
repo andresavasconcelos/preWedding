@@ -12,4 +12,19 @@ export class MadrinhaComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  images: string[] = [
+    '../../assets/img/madrinhas/inspiracao.png'
+  ];
+
+  selectedImage: string | null = null;
+
+  openModal(image: string) {
+    this.selectedImage = image;
+  }
+
+  closeModal() {
+    this.selectedImage = null;
+  }
+
 }
