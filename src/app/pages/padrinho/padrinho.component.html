@@ -32,7 +32,17 @@
         <div class="coracao texto">
           <h2 class="text-center cinza">cinza claro</h2>
             <div class="row text-center">
-                <app-image-gallery></app-image-gallery>
+
+              <div class="gallery">
+                <img *ngFor="let image of images" [src]="image" (click)="openModal(image)" />
+              </div>
+
+              <div class="modal" *ngIf="selectedImage">
+                <span class="close" (click)="closeModal()">&times;</span>
+                <img [src]="selectedImage" class="modal-content" />
+              </div>
+
+                <!-- <app-image-gallery></app-image-gallery> -->
                 <!-- <img class="imgCoracao" src="assets\img\padrinhos\inspiracao.jpg" alt=""> -->
               <!-- <div class="col-4">
                 <img class="imgCoracao" src="assets\img\home\coracao\coracao_cinza1.png" alt="">
