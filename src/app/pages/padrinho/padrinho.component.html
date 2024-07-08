@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 
-<div class="madrinha">
+<div class="padrinho">
     <div class="blocoInicial">
 
         <div class="title">
@@ -23,18 +23,32 @@
     </div>
 
     <div class="meioCores">
-      <div class="container">
+      <div class="">
         <div>
           <h4 class="reservei text-center">reservei esse espaço para te ajudar na escolha das cores seu terno.</h4>
           <h3 class="referenciaTexto text-center">abaixo está a referência da cor do terno dos padrinhos</h3>
         </div>
 
-
         <div class="coracao texto">
           <h2 class="text-center cinza">cinza claro</h2>
-          <div class="container">
             <div class="row text-center">
-              <div class="col-4">
+
+              <div class="modal" *ngIf="selectedImage">
+                <span class="close" (click)="closeModal()">&times;</span>
+                <img [src]="selectedImage" class="modal-content" />
+              </div>
+
+              <div class="gallery">
+                <div *ngFor="let image of images" class="image-wrapper">
+                  <img [src]="image" (click)="openModal(image)" />
+                </div>
+              </div>
+
+
+
+                <!-- <app-image-gallery></app-image-gallery> -->
+                <!-- <img class="imgCoracao" src="assets\img\padrinhos\inspiracao.jpg" alt=""> -->
+              <!-- <div class="col-4">
                 <img class="imgCoracao" src="assets\img\home\coracao\coracao_cinza1.png" alt="">
               </div>
               <div class="col-4">
@@ -42,10 +56,8 @@
               </div>
               <div class="col-4">
                 <img class="imgCoracao" src="assets\img\home\coracao\coracao_cinza2.png" alt="">
-              </div>
+              </div> -->
             </div>
-          </div>
-
         </div>
       </div>
     </div>
@@ -56,6 +68,8 @@
               <h3 class="Terno">ternos para se inspirar</h3>
               <h5 class="voceLinda">para arrasar junto com a madrinha</h5>
               <app-opt-image-padrinhos></app-opt-image-padrinhos>
+          </div>
       </div>
-  </div>
+    </div>
+</div>
 

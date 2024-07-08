@@ -1,6 +1,10 @@
 .madrinha{
-  background-image: none!important;
-  background-color: #eef1fa;
+  /* background-image: none!important;
+  background-color: #eef1fa; */
+
+  background-image: url(../../../assets/img/TEXTURE.png);
+  background-color: #eaefff;
+  background-repeat: round;
 
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 300;
@@ -8,9 +12,9 @@
 
 }
 
-.blocoInicial{
+/* .blocoInicial{
   background-color: #eef1fa;
-}
+} */
 
 
 .text-madrinhas h1{

@@ -12,6 +12,20 @@ export class PadrinhoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  images: string[] = [
+    '../../assets/img/padrinhos/inspiracao.jpg'
+  ];
+
+  selectedImage: string | null = null;
+
+  openModal(image: string) {
+    this.selectedImage = image;
+  }
+
+  closeModal() {
+    this.selectedImage = null;
+  }
+
 }
 
 
