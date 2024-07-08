@@ -23,7 +23,7 @@
     </div>
 
     <div class="meioCores">
-      <div class="">
+      <div class="container">
         <div>
           <h4 class="reservei text-center">reservei esse espaço para te ajudar na escolha das cores seu terno.</h4>
           <h3 class="referenciaTexto text-center">abaixo está a referência da cor do terno dos padrinhos</h3>
@@ -38,25 +38,11 @@
                 <img [src]="selectedImage" class="modal-content" />
               </div>
 
-              <div class="gallery">
+              <div class="gallery col-12">
                 <div *ngFor="let image of images" class="image-wrapper">
                   <img [src]="image" (click)="openModal(image)" />
                 </div>
               </div>
-
-
-
-                <!-- <app-image-gallery></app-image-gallery> -->
-                <!-- <img class="imgCoracao" src="assets\img\padrinhos\inspiracao.jpg" alt=""> -->
-              <!-- <div class="col-4">
-                <img class="imgCoracao" src="assets\img\home\coracao\coracao_cinza1.png" alt="">
-              </div>
-              <div class="col-4">
-                <img class="imgCoracao" src="assets\img\home\coracao\coracao_cinza3.png" alt="">
-              </div>
-              <div class="col-4">
-                <img class="imgCoracao" src="assets\img\home\coracao\coracao_cinza2.png" alt="">
-              </div> -->
             </div>
         </div>
       </div>

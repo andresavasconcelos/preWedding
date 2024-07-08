@@ -1,18 +1,23 @@
-/* .gallery {
+.gallery {
   display: flex;
   flex-wrap: wrap;
-} */
-
-.gallery img {
-  width: 50%;
-  height: auto;
-  margin: 5px;
-  cursor: pointer;
-  transition: transform 0.2s;
-  text-align: center;
+  justify-content: center;
 }
 
-.gallery img:hover {
+.image-wrapper {
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.image-wrapper img:hover {
   transform: scale(1.1);
 }
 
@@ -27,11 +32,13 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 999;
 }
 
 .modal-content {
-  max-width: fit-content;
-  max-height: -webkit-fill-available;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain; /* para garantir que a imagem fique dentro do modal */
 }
 
 .close {
@@ -42,6 +49,7 @@
   font-size: 35px;
   font-weight: bold;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .prev, .next {
@@ -54,6 +62,7 @@
   font-weight: bold;
   font-size: 20px;
   user-select: none;
+  z-index: 1000;
 }
 
 .prev {
