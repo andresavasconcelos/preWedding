@@ -39,7 +39,7 @@
 }
 
 .florAzulMeio{
-  width: 15%;
+  width: 5%;
   margin-bottom: 25px;
 }
 
@@ -149,7 +149,7 @@
 } */
 
 /* celular com tela grande */
-@media (min-width: 768px) and (max-width: 1450px) {
+@media (max-width: 781px) and (max-width: 1450px) {
   .text-madrinhas h1{
     font-family: 'Imperial Script', cursive;
     font-size: 60px;
@@ -238,7 +238,7 @@
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 480px){
   .text-madrinhas h1{
     font-family: 'Imperial Script', cursive;
     font-size: 60px;
