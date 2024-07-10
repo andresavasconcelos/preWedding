@@ -6,6 +6,7 @@ import { PadrinhoComponent } from './pages/padrinho/padrinho.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ListaCasamentoComponent } from './pages/lista-casamento/lista-casamento.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path:'padrinhos', component:PadrinhoComponent},
   {path:'menu', component:MenuComponent},
   {path:'about', component:AboutComponent},
-  {path:'contact', component:ContactComponent}
+  {path:'contact', component:ContactComponent},
+  {path:'lista-casamento', component:ListaCasamentoComponent}
 ];
 
 @NgModule({

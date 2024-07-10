@@ -15,6 +15,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { OptImageMadrinhasComponent } from './pages/opt-image-madrinhas/opt-image-madrinhas.component';
 import { OptImagePadrinhosComponent } from './pages/opt-image-padrinhos/opt-image-padrinhos.component';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
+import { ListaCasamentoComponent } from './pages/lista-casamento/lista-casamento.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
     FooterComponent,
     MadrinhaComponent,
     PadrinhoComponent,
-    ImageGalleryComponent
+    ImageGalleryComponent,
+    ListaCasamentoComponent
   ],
   imports: [
     BrowserModule,
