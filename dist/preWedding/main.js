@@ -621,7 +621,7 @@ class ListaCasamentoComponent {
     selectors: [["app-lista-casamento"]],
     decls: 58,
     vars: 0,
-    consts: [[1, "madrinha"], [1, "blocoInicial"], [1, "title"], [1, "container"], [1, "row"], [1, "text-center", "text-madrinhas"], [1, "mobile-text"], ["src", "assets\\img\\florMeioAzul.png", "alt", "", 1, "florAzulMeio"], [1, "cards"], [1, "frases"], [1, "reservei", "text-center"], [1, "referenciaTexto", "text-center"], [1, "rounded-box", "col"], [1, "icon-column"], ["href", "#", 1, "linkMenu"], ["src", "assets\\img\\home\\listaPresente\\amazon.png", "alt", "", 1, "ltsPresente", "imgPresente"], [1, "text-column"], ["href", "https://www.amazon.com.br/hz/wishlist/ls/DA8BW305Y2J5?ref_=wl_share", "target", "_blank"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-primary"], ["src", "assets\\img\\home\\listaPresente\\camicado.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "https://lista.camicado.com.br/be_e_de", "target", "_blank"], ["href", "HTTPS://LISTAS.CASASBAHIA.COM.BR/ANDRESAEVINICIUS", 1, "linkMenu"], ["src", "assets\\img\\home\\listaPresente\\casasBahias.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "", "target", "_blank"], ["href", "", 1, "linkMenu"], ["src", "assets\\img\\home\\listaPresente\\magalu.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "https://www.querodecasamento.com.br/lista-de-casamento/andresa-vinicius", "target", "_blank"], ["href", "https://www.precolandia.com.br/gift-list-details/casamento-andresa-e-vinicius-09-11-2024", 1, "linkMenu"], ["src", "assets\\img\\home\\listaPresente\\precolandia.png", "alt", "", 1, "ltsPresente", "imgPresente"]],
+    consts: [[1, "madrinha"], [1, "blocoInicial"], [1, "title"], [1, "container"], [1, "row"], [1, "text-center", "text-madrinhas"], [1, "mobile-text"], ["src", "assets\\img\\florMeioAzul.png", "alt", "", 1, "florAzulMeio"], [1, "cards"], [1, "frases"], [1, "reservei", "text-center"], [1, "referenciaTexto", "text-center"], [1, "rounded-box", "col"], [1, "icon-column"], ["href", "#", 1, "linkMenu"], ["src", "assets\\img\\home\\listaPresente\\amazon.png", "alt", "", 1, "ltsPresente", "imgPresente"], [1, "text-column"], ["href", "https://www.amazon.com.br/hz/wishlist/ls/DA8BW305Y2J5?ref_=wl_share", "target", "_blank"], ["type", "button", "data-bs-dismiss", "modal", 1, "btn", "btn-primary"], ["src", "assets\\img\\home\\listaPresente\\camicado.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "https://lista.camicado.com.br/be_e_de", "target", "_blank"], ["href", "", 1, "linkMenu"], ["src", "assets\\img\\home\\listaPresente\\magalu.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "https://www.querodecasamento.com.br/lista-de-casamento/andresa-vinicius", "target", "_blank"], ["href", "HTTPS://LISTAS.CASASBAHIA.COM.BR/ANDRESAEVINICIUS", 1, "linkMenu"], ["src", "assets\\img\\home\\listaPresente\\casasBahias.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "", "target", "_blank"], ["href", "https://www.precolandia.com.br/gift-list-details/casamento-andresa-e-vinicius-09-11-2024", 1, "linkMenu"], ["src", "assets\\img\\home\\listaPresente\\precolandia.png", "alt", "", 1, "ltsPresente", "imgPresente"]],
     template: function ListaCasamentoComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-navbar");
@@ -652,18 +652,18 @@ class ListaCasamentoComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](37, "img", 22);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "div", 16)(39, "a", 23)(40, "button", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, " Lista Casas Bahia ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, " Lista Magalu ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "div", 12)(43, "div", 13)(44, "a", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](45, "img", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](46, "div", 16)(47, "a", 26)(48, "button", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, " Lista Magalu ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, " Lista Casas Bahia ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "div", 12)(51, "div", 13)(52, "a", 27);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](53, "img", 28);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "div", 16)(55, "a", 23)(56, "button", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "div", 16)(55, "a", 26)(56, "button", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](57, "Lista Precolandia ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()()()();
       }
@@ -1346,9 +1346,9 @@ class NavbarComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
     type: NavbarComponent,
     selectors: [["app-navbar"]],
-    decls: 15,
+    decls: 18,
     vars: 4,
-    consts: [[1, "navbar", "navbar-expand-lg", "navbar-light"], [1, "container-fluid"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "ms-auto"], [1, "nav-item"], ["routerLink", "", "routerLinkActive", "active-link", 1, "nav-link", 3, "routerLinkActiveOptions"], ["routerLink", "/madrinhas", "routerLinkActive", "active-link", 1, "nav-link", 3, "routerLinkActiveOptions"], ["routerLink", "/padrinhos", "routerLinkActive", "active-link", 1, "nav-link"]],
+    consts: [[1, "navbar", "navbar-expand-lg", "navbar-light"], [1, "container-fluid"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "ms-auto"], [1, "nav-item"], ["routerLink", "", "routerLinkActive", "active-link", 1, "nav-link", 3, "routerLinkActiveOptions"], ["routerLink", "/madrinhas", "routerLinkActive", "active-link", 1, "nav-link", 3, "routerLinkActiveOptions"], ["routerLink", "/padrinhos", "routerLinkActive", "active-link", 1, "nav-link"], ["routerLink", "/lista-casamento", "routerLinkActive", "active-link", 1, "nav-link"]],
     template: function NavbarComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0)(1, "div", 1)(2, "button", 2);
@@ -1362,6 +1362,9 @@ class NavbarComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li", 6)(13, "a", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "padrinhos");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li", 6)(16, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "lista de casamento");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
       }
       if (rf & 2) {
@@ -1372,7 +1375,7 @@ class NavbarComponent {
       }
     },
     dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLink, _angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLinkActive],
-    styles: [".navbar-light[_ngcontent-%COMP%]   .navbar-nav[_ngcontent-%COMP%]   .nav-link.active-link[_ngcontent-%COMP%]{\n  color: rgb(114, 152, 223);\n  font-weight: bold;\n}\n\n.navbar[_ngcontent-%COMP%]{\n  background-color: #78c7ee;\n  background-image: none;\n}\n\n\n\n.nav-link[_ngcontent-%COMP%]{\n  color: #fff;\n  font-family: \"Montserrat Alternates\", sans-serif;\n}\n\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvc2hhcmVwYWdlL25hdmJhci9uYXZiYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHlCQUF5QjtFQUN6QixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsc0JBQXNCO0FBQ3hCOzs7O0FBSUE7RUFDRSxXQUFXO0VBQ1gsZ0RBQWdEO0FBQ2xEIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhci1saWdodCAubmF2YmFyLW5hdiAubmF2LWxpbmsuYWN0aXZlLWxpbmt7XHJcbiAgY29sb3I6IHJnYigxMTQsIDE1MiwgMjIzKTtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLm5hdmJhcntcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjNzhjN2VlO1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IG5vbmU7XHJcbn1cclxuXHJcblxyXG5cclxuLm5hdi1saW5re1xyXG4gIGNvbG9yOiAjZmZmO1xyXG4gIGZvbnQtZmFtaWx5OiBcIk1vbnRzZXJyYXQgQWx0ZXJuYXRlc1wiLCBzYW5zLXNlcmlmO1xyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */"]
+    styles: [".navbar-light[_ngcontent-%COMP%]   .navbar-nav[_ngcontent-%COMP%]   .nav-link.active-link[_ngcontent-%COMP%]{\n  color: rgb(114, 152, 223);\n  font-weight: bold;\n}\n\n.navbar[_ngcontent-%COMP%]{\n  background-color: #9acffa;\n  background-image: none;\n}\n\n\n\n.nav-link[_ngcontent-%COMP%]{\n  color: #fff;\n  font-family: \"Montserrat Alternates\", sans-serif;\n}\n\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9hcHAvc2hhcmVwYWdlL25hdmJhci9uYXZiYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHlCQUF5QjtFQUN6QixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsc0JBQXNCO0FBQ3hCOzs7O0FBSUE7RUFDRSxXQUFXO0VBQ1gsZ0RBQWdEO0FBQ2xEIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhci1saWdodCAubmF2YmFyLW5hdiAubmF2LWxpbmsuYWN0aXZlLWxpbmt7XHJcbiAgY29sb3I6IHJnYigxMTQsIDE1MiwgMjIzKTtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLm5hdmJhcntcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjOWFjZmZhO1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IG5vbmU7XHJcbn1cclxuXHJcblxyXG5cclxuLm5hdi1saW5re1xyXG4gIGNvbG9yOiAjZmZmO1xyXG4gIGZvbnQtZmFtaWx5OiBcIk1vbnRzZXJyYXQgQWx0ZXJuYXRlc1wiLCBzYW5zLXNlcmlmO1xyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */"]
   });
 }
 
