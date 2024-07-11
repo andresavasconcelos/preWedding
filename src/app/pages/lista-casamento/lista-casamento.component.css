@@ -381,8 +381,9 @@
   text-align: center;
 }
 
-
-
+.cards{
+  margin-top: 40px;
+}
 
 .rounded-box {
   text-align: center;
@@ -392,18 +393,14 @@
   padding: 10px;
   margin: 5px;
   margin-bottom: 10px;
-  width: -webkit-fill-available;
 }
 
 .icon-column {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-  padding: 10px; /* Espaçamento entre ícone e texto */
+  padding: 10px;
 }
 
 .icon-column img {
-  width: 70%; /* Ajuste conforme necessário */
+  width: 70%;
   max-width: 190px;
 }
 
@@ -418,6 +415,10 @@
 }
 
 .text-column button {
-  margin-right: 30px;
-  margin-top: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.frases{
+  margin-bottom: 80px;
 }
