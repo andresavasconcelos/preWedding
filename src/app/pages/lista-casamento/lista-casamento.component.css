@@ -385,12 +385,14 @@
 
 
 .rounded-box {
+  text-align: center;
   border: 1px solid #000;
   border-radius: 15px;
-  display: flex;
+  display: inline;
   padding: 10px;
-  margin: 5px auto; /* Centraliza na página */
+  margin: 5px;
   margin-bottom: 10px;
+  width: -webkit-fill-available;
 }
 
 .icon-column {
@@ -406,7 +408,7 @@
 }
 
 .text-column {
-  display: in;
+  display: inline;
   align-items: center;
   justify-content: center;
 }
