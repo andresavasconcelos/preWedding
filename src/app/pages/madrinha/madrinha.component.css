@@ -1,41 +1,17 @@
-.madrinha{
-  /* background-image: none!important;
-  background-color: #eef1fa; */
-
+.madrinha {
   background-image: url(../../../assets/img/TEXTURE.png);
   background-color: #eaefff;
-  background-repeat: round;
-
+  background-repeat: repeat;
+  background-size: auto;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
-
 }
-
-/* .blocoInicial{
-  background-color: #eef1fa;
-} */
-
 
 .text-madrinhas h1{
   font-family: 'Imperial Script', cursive;
   font-size: 80px;
   margin-top: 30px;
-}
-
-.coracao{
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-.coracao h3{
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.imgCoracao{
-  width: 100%;
 }
 
 .florAzulMeio{
@@ -79,7 +55,6 @@
 }
 
 .meioCores{
-  /* padding: 40px; */
   padding: 40px 40px 1px 40px;
 }
 
@@ -124,30 +99,6 @@
   margin-bottom: 40px;
 }
 
-.imgVestido{
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.btnVestido{
-  font-family: "Montserrat Alternates", sans-serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #0089b1;
-  color: #fff;
-  background-color: #0089b1;
-  border-color: none;
-}
-
-
-/* @media (max-width: 767px) {
-  .imgCoracao{
-    width: 40%;
-  }
-} */
-
 /* celular com tela grande */
 @media (max-width: 781px) and (max-width: 1450px) {
   .text-madrinhas h1{
@@ -175,13 +126,8 @@
     text-align: right;
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 200;
-    /* font-style: italic; */
     color: #7a7979;
     font-size: 14px;
-  }
-
-  .imgCoracao{
-    width: 100%;
   }
 
   .reservei{
@@ -229,94 +175,6 @@
     font-style: normal;
     color: #7f7f7f;
     font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 40px;
-  }
-
-  .imgWithoutLink{
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 480px){
-  .text-madrinhas h1{
-    font-family: 'Imperial Script', cursive;
-    font-size: 60px;
-    margin-top: 30px;
-    margin-bottom: 0;
-  }
-
-  .florAzulMeio{
-    width: 15%;
-    margin-bottom: 15px;
-    margin-top: 15px;
-  }
-
-  .comCarinho{
-    text-align: right;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    color: #000;
-    font-size: 12px;
-  }
-
-  .agradecimento h5{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #000;
-    margin-top: 25px;
-    font-size: 12px;
-  }
-
-  .reservei{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #000;
-    margin-top: 15px;
-    font-size: 20px;
-  }
-
-  .referenciaTexto{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    color: #7f7f7f;;
-    font-size: 12px;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-
-  .serenity{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #007dbe;
-    font-size: 25px;
-  }
-
-  .imgCoracao{
-    width: 100%;
-  }
-
-  .final h3{
-    margin-top: 15px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #000;
-    margin-bottom: 0;
-    font-size: 20px;
-  }
-
-  .voceLinda{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #7f7f7f;
-    font-size: 16px;
     margin-top: 5px;
     margin-bottom: 40px;
   }

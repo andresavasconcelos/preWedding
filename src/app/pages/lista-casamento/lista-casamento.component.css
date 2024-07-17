@@ -1,64 +1,20 @@
-.madrinha{
-  /* background-image: none!important;
-  background-color: #eef1fa; */
-  background-repeat: round;
-
+.lista-casamento{
+  background-image: url(../../../assets/img/TEXTURE.png);
+  background-color: #eaefff;
   font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 300;
   font-style: normal;
-
 }
 
-/* .blocoInicial{
-  background-color: #eef1fa;
-} */
 
-
-.text-madrinhas h1{
+.text-lista-casamento h1{
   font-family: 'Imperial Script', cursive;
   font-size: 80px;
   margin-top: 30px;
 }
 
-.coracao{
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-.coracao h3{
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.imgCoracao{
-  width: 100%;
-}
-
 .florAzulMeio{
   width: 5%;
   margin-bottom: 25px;
-}
-
-.comCarinho{
-  text-align: right;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  color: #000;
-  font-size: 17px;
-}
-
-.agradecimento h5{
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #000;
-  margin-top: 25px;
-}
-
-.meioCores{
-  background-color: #badcf17d;
 }
 
 .texto{
@@ -75,20 +31,6 @@
   margin-top: 15px;
 }
 
-.meioCores{
-  /* padding: 40px; */
-  padding: 40px 40px 1px 40px;
-}
-
-.serenity{
-  margin: 50px;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #007dbe;
-  font-size: 50px;
-}
-
 .referenciaTexto{
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 200;
@@ -98,56 +40,9 @@
   margin-top: 10px;
 }
 
-.blocoFinal{
-  padding: 40px;
-}
-
-.final h3{
-  margin-top: 15px;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #000;
-  margin-bottom: 0;
-}
-
-.voceLinda{
-  font-family: "Montserrat Alternates", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: #7f7f7f;
-  font-size: 16px;
-  margin-top: 5px;
-  margin-bottom: 40px;
-}
-
-.imgVestido{
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.btnVestido{
-  font-family: "Montserrat Alternates", sans-serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #0089b1;
-  color: #fff;
-  background-color: #0089b1;
-  border-color: none;
-}
-
-
-/* @media (max-width: 767px) {
-  .imgCoracao{
-    width: 40%;
-  }
-} */
-
 /* celular com tela grande */
 @media (max-width: 781px) and (max-width: 1450px) {
-  .text-madrinhas h1{
+  .text-lista-casamento h1{
     font-family: 'Imperial Script', cursive;
     font-size: 60px;
     margin-top: 30px;
@@ -159,45 +54,6 @@
     margin-top: 15px;
   }
 
-  .agradecimento h5{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #000;
-    font-size: 16px;
-    margin-top: 25px;
-  }
-
-  .comCarinho{
-    text-align: right;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 200;
-    /* font-style: italic; */
-    color: #7a7979;
-    font-size: 14px;
-  }
-
-  .imgCoracao{
-    width: 100%;
-  }
-
-  .reservei{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #000;
-    margin-top: 15px;
-  }
-
-  .serenity{
-    margin: 50px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #007dbe;
-    font-size: 40px;
-  }
-
   .referenciaTexto{
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 200;
@@ -206,37 +62,10 @@
     font-size: 16px;
     margin-top: 10px;
   }
-
-  .blocoFinal{
-    padding: 40px;
-  }
-
-  .final h3{
-    margin-top: 15px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #000;
-    margin-bottom: 0;
-  }
-
-  .voceLinda{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #7f7f7f;
-    font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 40px;
-  }
-
-  .imgWithoutLink{
-    margin-bottom: 20px;
-  }
 }
 
 @media (max-width: 480px){
-  .text-madrinhas h1{
+  .text-lista-casamento h1{
     font-family: 'Imperial Script', cursive;
     font-size: 60px;
     margin-top: 30px;
@@ -249,24 +78,6 @@
     margin-top: 15px;
   }
 
-  .comCarinho{
-    text-align: right;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    color: #000;
-    font-size: 12px;
-  }
-
-  .agradecimento h5{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #000;
-    margin-top: 25px;
-    font-size: 12px;
-  }
-
   .reservei{
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 300;
@@ -285,104 +96,6 @@
     margin-top: 10px;
     font-size: 16px;
   }
-
-  .serenity{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #007dbe;
-    font-size: 25px;
-  }
-
-  .imgCoracao{
-    width: 100%;
-  }
-
-  .final h3{
-    margin-top: 15px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #000;
-    margin-bottom: 0;
-    font-size: 20px;
-  }
-
-  .voceLinda{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #7f7f7f;
-    font-size: 16px;
-    margin-top: 5px;
-    margin-bottom: 40px;
-  }
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.image-wrapper {
-  margin: 5px;
-  overflow: hidden;
-  position: relative;
-}
-
-.image-wrapper img {
-  width: 100%;
-  height: auto;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.image-wrapper img:hover {
-  transform: scale(1.1);
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  z-index: 999;
-}
-
-.modal-content {
-  max-width: fit-content;
-  max-height: -webkit-fill-available;
-}
-
-.close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: white;
-  font-size: 35px;
-  font-weight: bold;
-  cursor: pointer;
-  z-index: 1000;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-  margin: 5px;
-  cursor: pointer;
-  transition: transform 0.2s;
-  text-align: center;
-}
-
-.cards{
-  margin-top: 40px;
 }
 
 .rounded-box {

@@ -1,40 +1,17 @@
 .padrinho{
-  /* background-image: none!important;
-  background-color: #eef1fa; */
-
   background-image: url(../../../assets/img/TEXTURE.png);
   background-color: #eaefff;
-  background-repeat: round;
+  background-repeat: repeat;
+  background-size: auto;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
-
 }
-/*
-.blocoInicial{
-  background-color: #eef1fa;
-} */
-
 
 .text-padrinhos h1{
   font-family: 'Imperial Script', cursive;
   font-size: 80px;
   margin-top: 30px;
-}
-
-.coracao{
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-.coracao h3{
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.imgCoracao{
-  width: 50%;
 }
 
 .florAzulMeio{
@@ -60,10 +37,7 @@
 }
 
 .meioCores{
-  /* background-color: #badcf17d; */
-  /* background-color: #d5d5d57d; */
-  /* background-color: #e9e9e97d; */
-  background-color: #e7ecfc96;
+  background-color: #badcf17d;
 }
 
 .texto{
@@ -81,7 +55,6 @@
 }
 
 .meioCores{
-  /* padding: 40px; */
   padding: 40px 40px 1px 40px;
 }
 
@@ -126,32 +99,8 @@
   margin-bottom: 40px;
 }
 
-.imgTerno{
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.btnTerno{
-  font-family: "Montserrat Alternates", sans-serif;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #0089b1;
-  color: #fff;
-  background-color: #0089b1;
-  border-color: none;
-}
-
-
-/* @media (max-width: 767px) {
-  .imgCoracao{
-    width: 40%;
-  }
-} */
-
 /* celular com tela grande */
 @media (max-width: 768px) and (max-width: 1450px) {
-
   .text-padrinhos h1{
     font-family: 'Imperial Script', cursive;
     font-size: 60px;
@@ -177,13 +126,8 @@
     text-align: right;
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 200;
-    /* font-style: italic; */
     color: #7a7979;
     font-size: 14px;
-  }
-
-  .imgCoracao{
-    width: 50%;
   }
 
   .reservei{
@@ -233,10 +177,6 @@
     font-size: 14px;
     margin-top: 5px;
     margin-bottom: 40px;
-  }
-
-  .imgWithoutLink{
-    margin-bottom: 20px;
   }
 }
 
@@ -297,10 +237,6 @@
     font-style: normal;
     color: #717171;
     font-size: 25px;
-  }
-
-  .imgCoracao{
-    width: 50%;
   }
 
   .final h3{
