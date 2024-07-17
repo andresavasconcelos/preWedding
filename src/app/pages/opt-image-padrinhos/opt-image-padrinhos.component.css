@@ -78,7 +78,7 @@
 
 .prev:hover,
 .next:hover {
-  color: #000000;
+  color: rgb(65, 65, 65);
 }
 
 @media (max-width: 768px) {
