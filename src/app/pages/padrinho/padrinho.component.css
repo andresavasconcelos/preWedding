@@ -99,7 +99,7 @@
 }
 
 /* celular com tela grande */
-@media (max-width: 768px) and (max-width: 1450px) {
+@media (max-width: 781px) and (max-width: 1450px) {
   .text-padrinhos h1{
     font-family: 'Imperial Script', cursive;
     font-size: 60px;
