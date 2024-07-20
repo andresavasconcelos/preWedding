@@ -35,7 +35,8 @@
 
 .centered-text h1 {
   font-size: 100px;
-  color: #787da3;
+  /* color: #787da3; */
+  color: #5893c4;
   margin: 0;
 }
 
@@ -45,7 +46,7 @@
 
 
 .up-position{
-  color: #666c8b;
+  color: #5893c4;
   text-transform: uppercase;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
