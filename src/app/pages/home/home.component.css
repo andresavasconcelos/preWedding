@@ -114,7 +114,7 @@
   line-height: 0;
   max-width: 100%;
   text-transform: none;
-  color: #15187f;
+  color: #76b9f0;
   padding-left: inherit;
 }
 
@@ -135,7 +135,7 @@
   line-height: 0;
   max-width: 100%;
   text-transform: none;
-  color: #15187f;
+  color: #76b9f0;
 }
 
 .frase-com-linhas {
@@ -173,7 +173,7 @@
 
   .centered-text h1 {
     font-size: 95px;
-    color: #787da3;
+    color: #5893c4;
     margin: 0;
   }
 
@@ -201,7 +201,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #15187f;
+    color: #76b9f0;
     padding-left: inherit;
   }
 
@@ -216,7 +216,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #15187f;
+    color: #76b9f0;
     padding-left: inherit;
   }
 
@@ -232,7 +232,7 @@
     line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
     max-width: 100%; /* Texto não ultrapassará a largura da caixa */
     text-transform: none;
-    color: #15187f;
+    color: #76b9f0;
   }
 
   .up-position {
@@ -252,7 +252,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #15187f;
+    color: #76b9f0;
   }
 
   .ltsPresente .imgPresente{
@@ -281,7 +281,7 @@
 
   .centered-text h1 {
     font-size: 95px;
-    color: #787da3;
+    color: #5893c4;
     margin: 0;
   }
 
@@ -310,7 +310,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #15187f;
+    color: #76b9f0;
   }
 
   .menuHome .imgMenu{
@@ -324,7 +324,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #15187f;
+    color: #76b9f0;
   }
 
   .ltsPresente .imgPresente{
@@ -339,7 +339,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #15187f;
+    color: #76b9f0;
   }
 
   .up-position {
@@ -417,7 +417,7 @@
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
-  color: #15187f;
+  color: #76b9f0;
   margin-bottom: 20px;
   margin-top: 10px;
 }
@@ -446,7 +446,7 @@
 
   .centered-text h1 {
     font-size: 70px;
-    color: #787da3;
+    color: #5893c4;
     margin: 0;
   }
 
@@ -469,7 +469,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #15187f;
+    color: #76b9f0;
   }
 
   .home .banner-esquerda-inferior {
@@ -482,7 +482,7 @@
     line-height: 0;
     max-width: 100%;
     text-transform: none;
-    color: #15187f;
+    color: #76b9f0;
     padding-left: inherit;
     margin-top: 30px;
   }

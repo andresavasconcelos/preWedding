@@ -5,11 +5,23 @@
   font-style: normal;
 }
 
+.blocoFinal{
+  padding: 40px;
+}
 
 .text-lista-casamento h1{
   font-family: 'Imperial Script', cursive;
   font-size: 80px;
   margin-top: 30px;
+}
+
+.comCarinho{
+  text-align: right;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  color: #000;
+  font-size: 17px;
 }
 
 .florAzulMeio{
@@ -73,29 +85,6 @@
     margin-top: 10px;
   }
 
-  .comCarinho{
-    text-align: right;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 200;
-    color: #7a7979;
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 480px){
-  .text-lista-casamento h1{
-    font-family: 'Imperial Script', cursive;
-    font-size: 60px;
-    margin-top: 30px;
-    margin-bottom: 0;
-  }
-
-  .florAzulMeio{
-    width: 15%;
-    margin-bottom: 15px;
-    margin-top: 15px;
-  }
-
   .agradecimento h5{
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 300;
@@ -105,110 +94,13 @@
     margin-top: 25px;
   }
 
-  .referenciaTexto{
-    font-family: "Montserrat Alternates", sans-serif;
+  .comCarinho{
+    text-align: right;
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: 200;
-    font-style: normal;
-    color: #7f7f7f;;
-    font-size: 12px;
-    margin-top: 10px;
-    font-size: 16px;
+    color: #7a7979;
+    font-size: 14px;
   }
-}
-
-.rounded-box {
-  text-align: center;
-  border: 1px solid #000;
-  border-radius: 15px;
-  display: inline;
-  padding: 10px;
-  margin: 5px;
-  margin-bottom: 10px;
-}
-
-.icon-column {
-  padding: 10px;
-}
-
-.icon-column img {
-  width: 70%;
-  max-width: 190px;
-}
-
-.text-column {
-  display: inline;
-  align-items: center;
-  justify-content: center;
-}
-
-.text-column p {
-  margin: 0;
-}
-
-.text-column button {
-  width: 100%;
-  margin-top: 20px;
-}
-
-.frases{
-  margin-bottom: 80px;
-}
-
-.secao4 {
-  margin: 0;
-  font-family: Helvetica, sans-serif;
-}
-
-.secao4-div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px;
-  text-align: center;
-}
-
-.secao4-div-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: calc(100% / 4 - 50px);
-  margin: 10px;
-  padding: 20px;
-  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  background-color: white;
-  transition: all 0.5s ease;
-}
-
-.secao4-div-card:hover {
-  transform: scale(1.1);
-  z-index: 1;
-}
-
-.secao4-div-card img {
-  width: 50%;
-  height: auto;
-}
-
-.secao4-div-card h3 {
-  margin-bottom: 0px;
-}
-
-/* Estilos para dispositivos móveis */
-@media (max-width: 768px) {
-  .secao4-div-card {
-      width: 100%;
-  }
-}
-
-
-/* ################### */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
 }
 
 .card {
