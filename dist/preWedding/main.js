@@ -621,7 +621,7 @@ class ListaCasamentoComponent {
     selectors: [["app-lista-casamento"]],
     decls: 53,
     vars: 0,
-    consts: [[1, "lista-casamento"], [1, "blocoInicial"], [1, "title"], [1, "container"], [1, "row"], [1, "text-center", "text-lista-casamento"], [1, "mobile-text"], ["src", "assets\\img\\florMeioAzul.png", "alt", "", 1, "florAzulMeio"], [1, "agradecimento"], [1, "comCarinho"], [1, "card", "col-3"], ["href", "https://www.precolandia.com.br/gift-list-details/casamento-andresa-e-vinicius-09-11-2024", "target", "_blank"], [1, "circle"], ["src", "assets/img/home/listaPresente/precolandia.png", "alt", "", 1, "ltsPresente", "imgPresente"], [1, "content"], ["href", "https://www.amazon.com.br/hz/wishlist/ls/DA8BW305Y2J5?ref_=wl_share ", "target", "_blank"], ["src", "assets/img/home/listaPresente/amazon.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "https://lista.camicado.com.br/be_e_de", "target", "_blank"], ["src", "assets/img/home/listaPresente/camicado.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "HTTPS://LISTAS.CASASBAHIA.COM.BR/ANDRESAEVINICIUS", "target", "_blank"], ["src", "assets/img/home/listaPresente/casasBahias.png", "alt", "", 1, "ltsPresente", "imgPresente"]],
+    consts: [[1, "lista-casamento"], [1, "blocoInicial"], [1, "title"], [1, "container"], [1, "row"], [1, "text-center", "text-lista-casamento"], [1, "mobile-text"], ["src", "assets\\img\\florMeioAzul.png", "alt", "", 1, "florAzulMeio"], [1, "agradecimento"], [1, "comCarinho"], [1, "card", "col-3"], ["href", "https://www.amazon.com.br/hz/wishlist/ls/DA8BW305Y2J5?ref_=wl_share ", "target", "_blank"], [1, "circle"], ["src", "assets/img/home/listaPresente/amazon.png", "alt", "", 1, "ltsPresente", "imgPresente"], [1, "content"], ["href", "https://lista.camicado.com.br/be_e_de", "target", "_blank"], ["src", "assets/img/home/listaPresente/camicado.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "https://www.querodecasamento.com.br/lista-de-casamento/andresa-vinicius", "target", "_blank"], ["src", "assets/img/home/listaPresente/magalu.png", "alt", "", 1, "ltsPresente", "imgPresente"], ["href", "https://www.precolandia.com.br/gift-list-details/view/casamento-andresa-e-vinicius-09-11-2024", "target", "_blank"], ["src", "assets/img/home/listaPresente/precolandia.png", "alt", "", 1, "ltsPresente", "imgPresente"]],
     template: function ListaCasamentoComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-navbar");
@@ -640,7 +640,7 @@ class ListaCasamentoComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](20, "img", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "div", 14)(22, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](23, "Criamos uma lista com variedade de presentes e valores que podem ser comprados ou, at\u00E9 mesmo, ajudar na ideia de presentes.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](23, "Indicado para quem tem a assinatura Amazon Prime e, portanto, consegue enviar o presente com frete gratis e sem estresse.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](24, "a", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](25, "Dar uma olhadinha");
@@ -649,7 +649,7 @@ class ListaCasamentoComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](29, "img", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](30, "div", 14)(31, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](32, "Indicado para quem tem a assinatura Amazon Prime e, portanto, consegue enviar o presente com frete gratis e sem estresse.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](32, "A Camicado tem uma lista com pe\u00E7as lindas e com parcelamento sem juros na maioria das pe\u00E7as.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](33, "a", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](34, "Dar uma olhadinha");
@@ -658,7 +658,7 @@ class ListaCasamentoComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](38, "img", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](39, "div", 14)(40, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, "A Camicado tem uma lista com pe\u00E7as lindas e com parcelamento sem juros na maioria das pe\u00E7as.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, "Uma loja com muitas op\u00E7\u00F5es de presentes e tamb\u00E9m com entrega facil, r\u00E1pida e parcelamento sem juros.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "a", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, "Dar uma olhadinha");
@@ -667,7 +667,7 @@ class ListaCasamentoComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](47, "img", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "div", 14)(49, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](50, "Uma loja com muitas op\u00E7\u00F5es de presentes e tamb\u00E9m com entrega facil, r\u00E1pida e parcelamento sem juros.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](50, "Criamos uma lista com variedade de presentes e valores que podem ser comprados ou, at\u00E9 mesmo, ajudar na ideia de presentes.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "a", 19);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](52, "Dar uma olhadinha");
