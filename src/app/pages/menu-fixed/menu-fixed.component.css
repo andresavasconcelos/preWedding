@@ -7,7 +7,7 @@
   background-color: #9acffa;
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
+  padding: 12px 0;
   z-index: 9;
 }
 
@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  padding: 10px 5px;
+  padding: 0px 5px;
 }
 
 .fixed-menu .link i {
