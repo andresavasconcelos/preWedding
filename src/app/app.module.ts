@@ -16,6 +16,7 @@ import { OptImageMadrinhasComponent } from './pages/opt-image-madrinhas/opt-imag
 import { OptImagePadrinhosComponent } from './pages/opt-image-padrinhos/opt-image-padrinhos.component';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { ListaCasamentoComponent } from './pages/lista-casamento/lista-casamento.component';
+import { MenuFixedComponent } from './pages/menu-fixed/menu-fixed.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ListaCasamentoComponent } from './pages/lista-casamento/lista-casamento
     MadrinhaComponent,
     PadrinhoComponent,
     ImageGalleryComponent,
-    ListaCasamentoComponent
+    ListaCasamentoComponent,
+    MenuFixedComponent
   ],
   imports: [
     BrowserModule,
