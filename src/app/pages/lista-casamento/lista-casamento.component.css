@@ -106,8 +106,8 @@
 
 .card {
   position: relative;
-  width: 280px;
-  height: 420px;
+  width: 268px;
+  height: 342px;
   background: #fff;
   margin: 20px;
   border-radius: 20px;
@@ -123,16 +123,15 @@
 }
 
 .card .circle {
-  position: relative;
   width: 100%;
-  height: 100%;
+  height: 86%;
   background: #000;
-  clip-path: circle(180px at center 0);
+  clip-path: circle(236px at center 0);
   text-align: center;
 }
 
 .card .circle img {
-  padding: 60px 0;
+  padding: 25px 0;
   width: 80%;
 }
 
