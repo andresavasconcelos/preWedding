@@ -155,7 +155,7 @@
 
 /* // show it on devices with max of 767 px and lower */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .hidden-mobile {
     display: none;
   }
@@ -295,7 +295,7 @@
     padding: 0;
   }
 
-  .frase-com-linhas {
+  /* .frase-com-linhas {
     text-transform: none;
     font-size: 26px;
     font-family: 'Raleway', sans-serif;
@@ -304,7 +304,7 @@
     display: inline-block;
     padding: 26px;
     margin-bottom: 20px;
-  }
+  } */
 
   .menuHome{
     font-weight: bold;
