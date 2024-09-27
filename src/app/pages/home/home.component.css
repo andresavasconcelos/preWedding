@@ -46,15 +46,16 @@
 
 
 .up-position{
-  color: #5893c4;
+  color: #4d99d8;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 18px;
   font-family: 'Raleway', sans-serif;
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
   font-weight: bold;
+  text-align: right;
 }
 
 .up-position p {
@@ -140,35 +141,37 @@
 
 .frase-com-linhas {
   text-transform: none;
-  font-size: 36px;
+  font-size: 25px;
   font-family: 'Raleway', sans-serif;
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
   display: inline-block;
   padding: 26px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .modalF button{
   margin: 2px;
 }
 
-/* // show it on devices with max of 767 px and lower */
+.confirm-button:hover {
+  background-color: #5893c4; /* Efeito ao passar o mouse */
+}
 
-@media (max-width: 768px) {
+@media (min-width: 378px) and (max-width: 768px) {
   .hidden-mobile {
     display: none;
   }
 
   .home .banner-direita {
-    width: 30%; /* Ajuste conforme necessário */
-    height: 100%; /* Usando 100% para cobrir a altura do elemento pai */
+    width: 30%;
+    height: 100%;
     position: absolute;
     top: 0;
     background-image: url(../../../assets/img/home/flor1.png);
     background-repeat: no-repeat;
-    background-size: contain; /* Alterado de 'cover' para 'contain' */
-    background-position: top; /* Posiciona a imagem na parte inferior */
+    background-size: contain;
+    background-position: top;
   }
 
   .centered-text h1 {
@@ -185,17 +188,17 @@
     text-transform: uppercase;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    transform: translate(-50%, -50%); /* Move a div para o centro */
-    z-index: 1; /* Define uma ordem de empilhamento superior (na frente das imagens) */
+    transform: translate(-50%, -50%);
+    z-index: 1;
   }
 
   .frase-com-linhas {
-    font-size: 23px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    font-size: 25px;
+    margin-top: 10%;
+    margin-bottom: 0;
   }
 
-  .menuHome{
+  /* .menuHome{
     font-weight: bold;
     font-size: 15px;
     line-height: 0;
@@ -203,11 +206,11 @@
     text-transform: none;
     color: #4d99d8;
     padding-left: inherit;
+    margin-top: 20px;
   }
 
   .menuHome .imgMenu{
-    /* margin-top: 25px; */
-    width: 45%;
+     width: 45%;
   }
 
   .ltsPresente {
@@ -221,22 +224,60 @@
   }
 
   .ltsPresente .imgPresente{
-    /* margin-top: 25px; */
     width: 100%;
   }
 
   .menuHome .textHomeP{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 20px;
-    line-height: 0; /* Altere o valor conforme necessário, 1 seria o valor normal */
-    max-width: 100%; /* Texto não ultrapassará a largura da caixa */
+    line-height: 0;
+    max-width: 100%;
+    text-transform: none;
+    color: #4d99d8;
+  } */
+
+
+
+  .menuHome{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0;
+    text-transform: none;
+    color: #4d99d8;
+    margin-top: 20px;
+  }
+
+  .menuHome .imgMenu{
+    width: 40%;
+  }
+
+  .ltsPresente {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 0;
+    max-width: 100%;
+    text-transform: none;
+    color: #4d99d8;
+  }
+
+  .ltsPresente .imgPresente{
+    margin-top: 15px;
+    width: 40%;
+  }
+
+  .menuHome .textHomeP{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 0;
+    max-width: 100%;
     text-transform: none;
     color: #4d99d8;
   }
 
   .up-position {
-    /* color: #666c8b; */
+
     color: #4d99d8;
     text-transform: uppercase;
     font-size: 13px;
@@ -259,9 +300,22 @@
   .ltsPresente .imgPresente{
     width: 100%;
   }
+
+  .confirm-button {
+    background-color: #71b6ee; /* Cor do botão */
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 1450px) {
+@media (min-width: 769px) {
   .hidden-mobile {
     display: none;
   }
@@ -295,16 +349,16 @@
     padding: 0;
   }
 
-  /* .frase-com-linhas {
+  .frase-com-linhas {
     text-transform: none;
-    font-size: 26px;
+    font-size: 32px;
     font-family: 'Raleway', sans-serif;
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
     display: inline-block;
     padding: 26px;
-    margin-bottom: 20px;
-  } */
+    margin-bottom: 40px;
+  }
 
   .menuHome{
     font-weight: bold;
@@ -336,8 +390,8 @@
 
   .menuHome .textHomeP{
     font-weight: bold;
-    font-size: 14px;
-    margin-top: 12px;
+    font-size: 18px;
+    margin-top: 15px;
     line-height: 0;
     max-width: 100%;
     text-transform: none;
@@ -354,6 +408,22 @@
     transform: translate(-50%, -50%);
     z-index: 1;
     font-weight: bold;
+  }
+
+  .confirm-button {
+    background-color: #71b6ee; /* Cor do botão */
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+
+  .confirm-button:hover {
+    background-color: #5893c4; /* Efeito ao passar o mouse */
   }
 }
 
@@ -429,16 +499,33 @@
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 377px){
+
+  .confirm-button {
+    background-color: #71b6ee;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+
+  .confirm-button:hover {
+    background-color: #5893c4; /* Efeito ao passar o mouse */
+  }
+
   .home{
     width: 30%;
     height: 100%;
   }
 
-  .up-position{
+  .up-position {
     color: #4d99d8;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 13px;
     font-family: 'Raleway', sans-serif;
     top: 10%;
     z-index: 1;
@@ -456,17 +543,17 @@
     font-size: 16px;
     margin-bottom: 0;
     margin-top: 67px;
-    padding: 20px;
+    margin-bottom: 15px;
   }
 
   .menuHome .imgMenu{
     margin-top: 0;
-    width: 100%;
+    width: 90%;
   }
 
   .menuHome .textHomeP{
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 20px;
     line-height: 0;
     max-width: 100%;
@@ -507,32 +594,6 @@
   .modalF button{
     margin: 2px;
     width: 100%;
-  }
-}
-
-.confirm-button {
-  background-color: #71b6ee; /* Cor do botão */
-  color: white;
-  font-weight: bold;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-bottom: 15px;
-}
-
-.confirm-button:hover {
-  background-color: #5893c4; /* Efeito ao passar o mouse */
-}
-
-/* Ajustes para mobile */
-@media (max-width: 768px) {
-  .confirm-button {
-    font-size: 14px; /* Reduzindo o tamanho do texto */
-    padding: 8px 16px; /* Reduzindo o espaçamento interno */
-    margin-bottom: 20px;
-    margin-top: 20px;
   }
 }
 
