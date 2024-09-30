@@ -11,6 +11,17 @@ export class HomeComponent implements OnInit {
 
   constructor(private router: Router, private _clipboardService: ClipboardService) { }
 
+    // Função para exibir a mensagem "Texto copiado"
+    showCopyMessage() {
+      const overlayElement = document.getElementById('copyOverlay');
+      overlayElement?.classList.add('show');
+
+      // Oculta a mensagem e o overlay após 2 segundos
+      setTimeout(() => {
+        overlayElement?.classList.remove('show');
+      }, 900);
+    }
+
   mostrarModalMadrinhas() {
     window.location.href = '/madrinhas';
   }
@@ -21,7 +32,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
 interface ContagemRegressiva {
   dias: number;
@@ -33,8 +43,8 @@ interface ContagemRegressiva {
 function calcularTempoRestante(): ContagemRegressiva {
   const dataAlvo = new Date('2024-11-09T21:30:00Z');
   const agora = new Date();
-  console.log("agora: " + agora)
-  console.log("dataAlvo: " + dataAlvo)
+  // console.log("agora: " + agora)
+  // console.log("dataAlvo: " + dataAlvo)
 
   const diferencaEmSegundos = Math.floor((dataAlvo.getTime() - agora.getTime()) / 1000);
 
