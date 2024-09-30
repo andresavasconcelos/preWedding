@@ -710,7 +710,7 @@ class ListaCasamentoComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, "A Camicado tem uma lista com pe\u00E7as lindas e com parcelamento sem juros na maioria das pe\u00E7as.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](48, "Endere\u00E7o: Combine com os noivos ;)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](48, "Endere\u00E7o: Envio direto pela Camicado");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](49, "a", 19);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](50, "Dar uma olhadinha");
@@ -722,7 +722,7 @@ class ListaCasamentoComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](57, "Uma loja com muitas op\u00E7\u00F5es e tamb\u00E9m com entrega facil, r\u00E1pida e parcelamento sem juros.");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](59, "Endere\u00E7o: Combine com os noivos ;)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](59, "Endere\u00E7o: Envio direto pela Magalu");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](60, "a", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](61, "Dar uma olhadinha");
